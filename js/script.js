@@ -58,3 +58,9 @@ function ageInDays() {
         }, 1000);
     }
 
+function reset() {
+     document.querySelector('.day').remove();
+     document.querySelector('.hour').remove();
+     document.querySelector('.minute').remove();
+     document.querySelector('.second').remove();
+}
